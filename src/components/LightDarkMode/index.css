@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.dark-mode {
+  color: white;
+  background-color: black;
+}
+
+.light-mode {
+  color: black;
+  background-color: white;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  height: 38px;
+  width: 128px;
+  border-radius: 15px;
+}
